@@ -20,7 +20,7 @@ from bidi.algorithm import get_display
 # ============================================
 # 1) الخط العربي
 # ============================================
-FONT_URL = "https://github.com/alif-type/amiri/raw/master/Amiri-Regular.ttf"
+FONT_URL = FONT_URL = "https://cdn.jsdelivr.net/gh/google/fonts@main/ofl/amiri/Amiri-Regular.ttf"
 FONT_PATH = "Amiri-Regular.ttf"
 
 if not os.path.exists(FONT_PATH):
